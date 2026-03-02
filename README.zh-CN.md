@@ -1,4 +1,4 @@
-# tana-api-manager
+# Tana Local MCP
 
 [English](./README.md) | [简体中文](./README.zh-CN.md)
 
@@ -16,7 +16,7 @@
 1. 将本目录复制到你的 Codex skills 目录，例如：
 
 ```bash
-cp -R tana-api-manager "$CODEX_HOME/skills/tana-api-manager"
+cp -R tana "$CODEX_HOME/skills/tana"
 ```
 
 2. 在项目的 `AGENTS.md` 中增加技能条目（名称、描述、路径）。
@@ -28,7 +28,7 @@ cp -R tana-api-manager "$CODEX_HOME/skills/tana-api-manager"
 ```bash
 # 示例：从 GitHub 仓库路径安装
 # 在 Codex 的 skill-installer 流程中输入：
-MYC3/tana-api-manager
+MYC3/tana-local-mcp
 ```
 
 ## 前置条件
@@ -57,8 +57,8 @@ scripts/check_tana_local_api.sh
 
 ## 在提示词中使用
 
-- “使用 `tana-api-manager` 列出我的 tags”
-- “使用 `tana-api-manager` 读取节点 <nodeId>”
+- “使用 `tana` 列出我的 tags”
+- “使用 `tana` 读取节点 <nodeId>”
 
 ## 仓库结构
 

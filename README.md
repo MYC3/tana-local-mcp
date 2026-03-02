@@ -1,4 +1,4 @@
-# tana-api-manager
+# Tana Local MCP
 
 [English](./README.md) | [简体中文](./README.zh-CN.md)
 
@@ -16,7 +16,7 @@ Connect Codex to Tana Desktop Local API/MCP for safe read/write workflows on nod
 1. Copy this folder into your Codex skills directory, for example:
 
 ```bash
-cp -R tana-api-manager "$CODEX_HOME/skills/tana-api-manager"
+cp -R tana "$CODEX_HOME/skills/tana"
 ```
 
 2. Add a skill entry in your project's `AGENTS.md` (name, description, file path).
@@ -28,7 +28,7 @@ If you use the built-in `skill-installer`, install directly from this repo:
 ```bash
 # Example: install from GitHub repo path
 # Use the skill-installer workflow in Codex and provide:
-MYC3/tana-api-manager
+MYC3/tana-local-mcp
 ```
 
 ## Prerequisites
@@ -57,8 +57,8 @@ Expected: JSON with `"status":"ok"`.
 
 ## Usage in prompts
 
-- "Use `tana-api-manager` to list tags"
-- "Use `tana-api-manager` to read node <nodeId>"
+- "Use `tana` to list tags"
+- "Use `tana` to read node <nodeId>"
 
 ## Repository layout
 

@@ -1,9 +1,9 @@
 ---
-name: tana-api-manager
+name: tana
 description: Connect Codex to Tana via the local MCP server in Tana Desktop to get authorized read/write access, then search/read/edit nodes and manage supertags/fields using MCP tools. Use when tasks involve Tana integration setup, local API authentication, structured note sync, supertag schema updates, or node lifecycle operations.
 ---
 
-# Tana API Manager
+# Tana Local MCP
 
 Use this skill to configure and operate Tana's Local API/MCP from Codex with safe read/write workflows.
 

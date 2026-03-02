@@ -1,4 +1,4 @@
 interface:
-  display_name: "Tana Local MCP Manager"
+  display_name: "Tana Local MCP"
   short_description: "Connect Codex to Tana Local API/MCP for node read/write and supertag management."
   default_prompt: "Use this skill to configure Tana local MCP, authenticate via OAuth, and safely manage nodes and supertags."

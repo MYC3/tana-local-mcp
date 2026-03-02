@@ -58,7 +58,6 @@ Expected: JSON with `"status":"ok"`.
 ## Usage in prompts
 
 - "Use `tana-api-manager` to list tags"
-- "Use `tana-api-manager` to search nodes containing 周报"
 - "Use `tana-api-manager` to read node <nodeId>"
 
 ## Repository layout

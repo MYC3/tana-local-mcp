@@ -58,7 +58,6 @@ scripts/check_tana_local_api.sh
 ## 在提示词中使用
 
 - “使用 `tana-api-manager` 列出我的 tags”
-- “使用 `tana-api-manager` 搜索包含周报的节点”
 - “使用 `tana-api-manager` 读取节点 <nodeId>”
 
 ## 仓库结构

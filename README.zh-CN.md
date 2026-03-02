@@ -28,7 +28,7 @@ cp -R tana "$CODEX_HOME/skills/tana"
 ```bash
 # 示例：从 GitHub 仓库路径安装
 # 在 Codex 的 skill-installer 流程中输入：
-MYC3/tana-local-mcp
+<owner>/tana-local-mcp
 ```
 
 ## 前置条件

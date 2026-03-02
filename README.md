@@ -28,7 +28,7 @@ If you use the built-in `skill-installer`, install directly from this repo:
 ```bash
 # Example: install from GitHub repo path
 # Use the skill-installer workflow in Codex and provide:
-MYC3/tana-local-mcp
+<owner>/tana-local-mcp
 ```
 
 ## Prerequisites

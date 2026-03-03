@@ -57,8 +57,8 @@ Expected: JSON with `"status":"ok"`.
 
 ## Default Save Behavior
 
-- When users ask to save content to Tana or record notes via Tana, default to creating content under Tana `Daily Notes` -> `Today`.
-- Override this default only if the user explicitly specifies a target supertag or a target parent/location.
+- When users ask to save content to Tana or record notes via Tana, default to creating content under Tana workspace `Daily Notes`.
+- Override this default only if the user explicitly specifies a concrete directory and tags.
 
 ## Usage in prompts
 

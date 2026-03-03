@@ -74,8 +74,8 @@ Notes:
 - Test mutations on disposable nodes first.
 - Keep bulk edits scoped by explicit search filters.
 - Use `trash_node` only after confirming node identity from `read_node`.
-- For save-or-record requests, create new content under Tana `Daily Notes` -> `Today` by default.
-- If user explicitly specifies a supertag or target parent/location, follow the user-specified destination instead.
+- For save-or-record requests, create new content under Tana workspace `Daily Notes` by default.
+- If user explicitly specifies a concrete directory and tags, follow the user-specified destination and tags instead.
 
 ## References
 

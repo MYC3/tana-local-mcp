@@ -11,6 +11,31 @@ Connect Codex to Tana Desktop Local API/MCP for safe read/write workflows on nod
 - Recommends read-first workflows (`list_tags`, `search_nodes`, `read_node`)
 - Covers write workflows (`edit_node`, `set_field_content`, `tag`, etc.)
 
+## Available tools
+
+### Read
+
+- `list_workspaces` — List available workspaces
+- `search_nodes` — Search using structured queries
+- `read_node` — Read node content as markdown
+- `get_children` — Get paginated children of a node
+- `list_tags` — List tags in a workspace
+- `get_tag_schema` — Get field definitions for a tag
+
+### Mutation
+
+- `import_tana_paste` — Import hierarchical content
+- `tag` — Add/remove tags from nodes
+- `set_field_option` — Set dropdown field values
+- `set_field_content` — Set text/number/date field values
+- `create_tag` — Create new tags
+- `add_field_to_tag` — Add fields to tags
+- `set_tag_checkbox` — Configure checkbox behavior
+- `check_node` / `uncheck_node` — Mark nodes done/not done
+- `trash_node` — Move node to trash
+- `get_or_create_calendar_node` — Get/create calendar nodes
+- `edit_node` — Edit a node's name and/or description using search-and-replace
+
 ## Install
 
 1. Copy this folder into your Codex skills directory, for example:

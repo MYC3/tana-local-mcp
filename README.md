@@ -87,7 +87,7 @@ Expected: JSON with `"status":"ok"`.
 
 ## Usage in prompts
 
-- Use/select a Tana Local MCP command from the Skills panel to execute Tana operations.
+- Use `/` select a Tana Local MCP command from the Skills panel to execute Tana operations.
 - If `/Tana Local MCP` does not show in a new thread, use `$Tana Local MCP <content>` explicitly.
 
 ## Repository layout

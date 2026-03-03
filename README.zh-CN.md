@@ -87,9 +87,8 @@ scripts/check_tana_local_api.sh
 
 ## 在提示词中使用
 
-- `/tana 今天完成发布验证`
-- `/tana 记录：客户反馈总结`
-- 如果新线程里 `/tana` 没出现，可用 `$tana <content>` 显式调用。
+- 使用/选择 “Tana Local MCP” 命令执行
+- 如果新线程里 `/Tana Local MCP` 没出现，可用 `$Tana Local MCP <content>` 显式调用。
 
 ## 仓库结构
 

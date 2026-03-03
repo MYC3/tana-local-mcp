@@ -38,10 +38,10 @@
 
 ## 安装
 
-1. 将本目录复制到你的 Codex skills 目录，例如：
+1. 将技能目录复制到你的 Codex skills 目录，例如：
 
 ```bash
-cp -R tana "$CODEX_HOME/skills"
+cp -R skills/tana "$CODEX_HOME/skills/tana"
 ```
 
 2. 在项目的 `AGENTS.md` 中增加技能条目（名称、描述、路径）。
@@ -53,7 +53,7 @@ cp -R tana "$CODEX_HOME/skills"
 ```bash
 # 示例：从 GitHub 仓库路径安装
 # 在 Codex 的 skill-installer 流程中输入：
-<owner>-local-mcp
+<owner>/tana-local-mcp，并指定 path 为 `skills/tana`
 ```
 
 ## 前置条件
@@ -93,10 +93,10 @@ scripts/check_tana_local_api.sh
 
 ## 仓库结构
 
-- `SKILL.md`
-- `agents/openai.yaml`
-- `references/tana-local-mcp-ops.md`
-- `scripts/check_tana_local_api.sh`
+- `skills/tana/SKILL.md`
+- `skills/tana/agents/openai.yaml`
+- `skills/tana/references/tana-local-mcp-ops.md`
+- `skills/tana/scripts/check_tana_local_api.sh`
 
 ## 许可证
 

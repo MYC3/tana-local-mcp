@@ -74,7 +74,8 @@ Notes:
 - Test mutations on disposable nodes first.
 - Keep bulk edits scoped by explicit search filters.
 - Use `trash_node` only after confirming node identity from `read_node`.
-- For save-or-record requests, default to the workspace's Daily Notes day node for today (get/create via `get_or_create_calendar_node` with `granularity: "day"`, then write via `import_tana_paste`).
+- For save-or-record requests without an explicit destination, you MUST call `get_or_create_calendar_node` with `granularity: "day"` and write using `import_tana_paste` to the returned day node.
+- Never write save-or-record content to workspace root/home when destination is unspecified.
 - If user explicitly specifies a concrete directory and tags, follow the user-specified destination and tags instead.
 
 ## References

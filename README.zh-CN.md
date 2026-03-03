@@ -87,8 +87,8 @@ scripts/check_tana_local_api.sh
 
 ## 在提示词中使用
 
-- “使用 `tana` 列出我的 tags”
-- “使用 `tana` 读取节点 <nodeId>”
+- `/tana 今天完成发布验证`
+- `/tana 记录：客户反馈总结`
 
 ## 仓库结构
 
